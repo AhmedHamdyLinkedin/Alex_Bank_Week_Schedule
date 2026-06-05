@@ -1,12 +1,12 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:alex_bank_core_team_app/components/bottom_nav_bar.dart';
-import 'package:alex_bank_core_team_app/components/custom_app_bar.dart';
+import 'package:alex_bank_core_team_app/shared/components/bottom_nav_bar.dart';
+import 'package:alex_bank_core_team_app/shared/components/custom_app_bar.dart';
 import 'package:alex_bank_core_team_app/features/home/widgets/date_card.dart';
 import 'package:alex_bank_core_team_app/features/home/widgets/tab_view_widget.dart';
 import 'package:alex_bank_core_team_app/features/home/widgets/work_type_card.dart';
-import 'package:alex_bank_core_team_app/models/employee_model.dart';
-import 'package:alex_bank_core_team_app/utils/app_theme.dart';
+import 'package:alex_bank_core_team_app/shared/models/employee_model.dart';
+import 'package:alex_bank_core_team_app/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 final List<EmployeeModel> officeEmployees = [

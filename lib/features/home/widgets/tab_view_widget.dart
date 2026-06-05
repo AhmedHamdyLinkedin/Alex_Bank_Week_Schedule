@@ -1,4 +1,4 @@
-import 'package:alex_bank_core_team_app/utils/app_theme.dart';
+import 'package:alex_bank_core_team_app/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class TabViewWidget extends StatelessWidget {

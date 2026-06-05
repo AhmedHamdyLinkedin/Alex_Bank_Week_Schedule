@@ -1,7 +1,7 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:alex_bank_core_team_app/features/home/widgets/enployee_card.dart';
-import 'package:alex_bank_core_team_app/models/employee_model.dart';
+import 'package:alex_bank_core_team_app/shared/models/employee_model.dart';
 import 'package:flutter/material.dart';
 
 class WorkTypeCard extends StatelessWidget {

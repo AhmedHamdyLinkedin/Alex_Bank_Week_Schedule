@@ -1,4 +1,4 @@
-import 'package:alex_bank_core_team_app/models/employee_model.dart';
+import 'package:alex_bank_core_team_app/shared/models/employee_model.dart';
 import 'package:flutter/material.dart';
 
 class EmployeeCard extends StatelessWidget {

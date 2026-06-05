@@ -1,5 +1,5 @@
-import 'package:alex_bank_core_team_app/components/custom_elevated_button.dart';
-import 'package:alex_bank_core_team_app/components/custom_text_form_field.dart';
+import 'package:alex_bank_core_team_app/shared/components/custom_elevated_button.dart';
+import 'package:alex_bank_core_team_app/shared/components/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 
 class SignInSection extends StatelessWidget {

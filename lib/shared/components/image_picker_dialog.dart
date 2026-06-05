@@ -1,4 +1,4 @@
-import 'package:alex_bank_core_team_app/components/custom_list_tile.dart';
+import 'package:alex_bank_core_team_app/shared/components/custom_list_tile.dart';
 import 'package:flutter/material.dart';
 
 class BottomSheetPreview extends StatelessWidget {

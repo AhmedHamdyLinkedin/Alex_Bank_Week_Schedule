@@ -1,5 +1,5 @@
-import 'package:alex_bank_core_team_app/components/app_logo.dart';
-import 'package:alex_bank_core_team_app/components/dot_pattern.dart';
+import 'package:alex_bank_core_team_app/shared/components/app_logo.dart';
+import 'package:alex_bank_core_team_app/shared/components/dot_pattern.dart';
 import 'package:alex_bank_core_team_app/features/auth/widgets/sign_in_section.dart';
 import 'package:alex_bank_core_team_app/features/auth/widgets/sign_up_section.dart';
 import 'package:flutter/material.dart';

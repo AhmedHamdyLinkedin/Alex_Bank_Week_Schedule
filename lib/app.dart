@@ -1,12 +1,12 @@
 //-> THEME CONTROLLER <-
 
-import 'package:alex_bank_core_team_app/components/custom_elevated_button.dart';
-import 'package:alex_bank_core_team_app/components/custom_text_form_field.dart';
+import 'package:alex_bank_core_team_app/shared/components/custom_elevated_button.dart';
+import 'package:alex_bank_core_team_app/shared/components/custom_text_form_field.dart';
 import 'package:alex_bank_core_team_app/features/add_attendance/screens/add_attendance_screen.dart';
 import 'package:alex_bank_core_team_app/features/auth/screen/auth_screen.dart';
 import 'package:alex_bank_core_team_app/features/home/screens/day_details_screen.dart';
 import 'package:alex_bank_core_team_app/features/home/screens/home_screen.dart';
-import 'package:alex_bank_core_team_app/utils/app_theme.dart';
+import 'package:alex_bank_core_team_app/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 //-> APP <-

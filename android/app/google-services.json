@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733158771272",
+    "project_id": "attendanceapp-df353",
+    "storage_bucket": "attendanceapp-df353.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733158771272:android:f40a7a6a6a4e1375c2667d",
+        "android_client_info": {
+          "package_name": "com.example.alex_bank_core_team_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ6bKgPYII50q_z7Bxg8xCXWnZW6kqYGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

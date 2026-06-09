@@ -1,5 +1,6 @@
 //-> THEME CONTROLLER <-
 
+import 'package:alex_bank_core_team_app/shared/components/app_loading_widget.dart';
 import 'package:alex_bank_core_team_app/shared/components/custom_elevated_button.dart';
 import 'package:alex_bank_core_team_app/shared/components/custom_text_form_field.dart';
 import 'package:alex_bank_core_team_app/features/add_attendance/screens/add_attendance_screen.dart';
@@ -8,6 +9,7 @@ import 'package:alex_bank_core_team_app/features/home/screens/day_details_screen
 import 'package:alex_bank_core_team_app/features/home/screens/home_screen.dart';
 import 'package:alex_bank_core_team_app/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 //-> APP <-
 class MyApp extends StatelessWidget {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
     return AnimatedBuilder(
       animation: themeController,
       builder: (context, _) {
-        return MaterialApp(
+        return GetMaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Alex Attend',
           themeMode: themeController.currentTheme,
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
           theme: AppThemes.lightTheme,
           //-> DARK THEME <-
           darkTheme: AppThemes.darkTheme,
-          home: const HomeScreen(),
+          home: const Scaffold(body: AppLoadingWidget()),
         );
       },
     );
